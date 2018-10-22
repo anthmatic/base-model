@@ -1,7 +1,7 @@
 # Base Model
 
 ## A starter theme for HubSpot CMS
-Base Model is an opinioned boilerplate for themes.
+Base Model is an opinionated framework for developing websites locally with HubSpot.
 
 
 ## Setup
