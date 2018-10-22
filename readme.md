@@ -4,6 +4,9 @@
 Base Model is an opinioned boilerplate for themes.
 
 
+## Setup
+Edit config.yml
+
 ## How to use
 GULP does everything:
 
