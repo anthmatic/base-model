@@ -1,9 +1,0 @@
----
-# Base Model Config #
-
-hubspot_credentials:
-  username: user@yousite.com
-  password: nunya
-  portal_id: 12345
-
-folder_root: portals/12345-yoursite_com/content/designs
