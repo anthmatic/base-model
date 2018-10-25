@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "## A starter theme for HubSpot CMS Base Model is an opinioned boilerplate for themes.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "gutil": "^1.6.4"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-dart-sass": "^0.9.1",
-    "run-sequence": "^2.2.1"
+    "read-yaml": "^1.1.0",
+    "run-sequence": "^2.2.1",
+    "vinyl-ftp": "^0.6.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

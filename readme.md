@@ -13,8 +13,7 @@ GULP does everything:
 `gulp <task>`
 
 Available tasks:
-- build: Build the project
+- build: Builds the project
 - watch: Builds the project, watches source, live reload
-- push: Pushes your changes to HubSpot
-- pull: Pulls your changes from HubSpot
+- deploy: Uploads new or updated files to your HubSpot portal. Note: will update uncommited changes on current working branch.
 - create <asset_type>
