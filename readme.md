@@ -5,7 +5,7 @@ Base Model is an opinionated framework for developing websites locally with HubS
 
 
 ## Setup
-Edit config.yml
+Edit config-sample.yml > rename to config.yml
 
 ## How to use
 GULP does everything:
