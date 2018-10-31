@@ -1,0 +1,10 @@
+---
+# Base Model Config #
+
+creds:
+  username: youremail@yourcompany.com
+  password: *********
+  portal_id: 12345
+
+folder_root: portals/<######-yourcompany_com>/content/designs/<folder-name>
+project_folder: <folder-name>
