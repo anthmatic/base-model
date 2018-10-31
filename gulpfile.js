@@ -20,13 +20,13 @@ gulp.task('deploy', function () {
   var config = readYaml.sync('config.yml');
 
   var conn = ftp.create( {
-      host:     'ftp.hubapi.com',
-      user:     config.creds.username,
+      host: 'ftp.hubapi.com',
+      user: config.creds.username,
       password: config.creds.password,
       parallel: 2,
       port: 3200,
       secure: true,
-      log:      gutil.log
+      log: gutil.log
   } );
 
   var globs = [
@@ -34,7 +34,7 @@ gulp.task('deploy', function () {
   ];
 
   return gulp.src( globs, { base: './build/', buffer: false } )
-    .pipe(conn.newer('portals/1932631-apizzurro_com/content/designs/newest')) 
-    .pipe(conn.dest('portals/1932631-apizzurro_com/content/designs/newest'))
-    .pipe(conn.clean('/portals/1932631-apizzurro_com/content/designs/newest/**','./build'))
+    .pipe(conn.newer(config.folder_root)) 
+    .pipe(conn.dest(config.folder_root))
+    .pipe(conn.clean(`${config.folder_root}/**`,'./build'))
 })
